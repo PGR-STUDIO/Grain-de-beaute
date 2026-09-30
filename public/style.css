@@ -78,3 +78,9 @@ img[src*="DSC05603-scaled"],img[src*="CABINE.jpg"],img[src*="DSC05607"],img[src*
 .editorial-card .text-link{font-size:10px;margin-top:auto;padding-top:9px}
 @media(max-width:820px){.editorial-grid{grid-template-columns:1fr}.editorial-card{min-height:250px}.editorial-card>img{min-height:250px}}
 @media(max-width:540px){.editorial-services{padding-top:65px;padding-bottom:65px}.editorial-card{grid-template-columns:1fr}.editorial-card>img{height:195px;min-height:195px;max-height:230px}.editorial-card>div{padding:21px}}
+
+/* Sur téléphone, garder les libellés des liens sans leurs flèches décoratives. */
+@media(max-width:760px){
+  .text-link>span,.button>span,.nav-cta>span,.mobile-book>span,.service-meta>.arrow,.gallery-item .arrow,.link-arrow,.contact-grid a>span{display:none!important}
+  .text-link{gap:0}
+}
