@@ -55,3 +55,13 @@ img[src*="DSC05603-scaled"],img[src*="CABINE.jpg"],img[src*="DSC05607"],img[src*
 .brand-story-copy h3{font-size:clamp(23px,2.5vw,32px)}
 .brand-story-copy p{font-size:13px}
 @media(max-width:760px){.brand-intro{padding-top:65px;padding-bottom:65px}.brand-story-grid{grid-template-columns:1fr;gap:12px;margin-top:26px}.brand-story{min-height:0;padding:25px}.brand-guinot-logo{margin-bottom:25px}.brand-lpg{grid-template-columns:1fr}.brand-story-photo{min-height:210px;max-height:250px}.brand-story-photo img{min-height:210px;max-height:250px}.brand-story-copy{padding:24px}}
+
+/* Logos de marque lisibles sur leurs fonds respectifs. */
+.lpg-brand-logo{display:block;width:76px;height:76px;object-fit:cover;margin:0 0 24px;border:1px solid rgba(255,255,255,.18)}
+.feature-brand-logo{display:block;width:128px;height:48px;padding:5px 9px;object-fit:contain;background:var(--ink);margin:0 0 24px}
+.shop-cta{display:flex;align-items:center;justify-content:space-between;gap:32px;background:var(--ink);color:#fff;padding-top:72px;padding-bottom:72px}
+.shop-cta h2{font:500 clamp(38px,5vw,66px)/1.02 var(--display);letter-spacing:-.065em;margin:18px 0}
+.shop-cta h2 em{font-style:normal;font-weight:400;color:#aee7e9}
+.shop-cta p{max-width:460px;color:rgba(255,255,255,.78);margin:0}
+.shop-cta .eyebrow{color:#e5ecea}
+@media(max-width:650px){.shop-cta{display:block;padding-top:55px;padding-bottom:55px}.shop-cta .button{margin-top:26px}}
