@@ -35,3 +35,23 @@ img[src*="DSC05603-scaled"],img[src*="CABINE.jpg"],img[src*="DSC05607"],img[src*
 
 /* Retire le point décoratif qui se superposait aux prix des cartes cadeaux. */
 .gift-card:after{display:none}
+
+/* Parcours éditorial : accueil, expertises de marque, soins, carte et boutique. */
+.brand-intro{background:#f1f4f3;padding-top:88px;padding-bottom:88px}
+.brand-story-grid{display:grid;grid-template-columns:.82fr 1.18fr;gap:16px;margin-top:38px}
+.brand-story{position:relative;min-height:370px;background:#fff;border:1px solid var(--line);padding:34px;display:flex;flex-direction:column;align-items:flex-start}
+.brand-logo{display:block;object-fit:contain}
+.brand-guinot-logo{height:58px;width:205px;margin-bottom:34px;display:flex;align-items:center}
+.brand-guinot-logo img{width:100%;height:100%;object-fit:contain;object-position:left center}
+.brand-story .small-index{font-size:9px;letter-spacing:.15em;color:var(--muted);font-weight:700}
+.brand-story h3{font:500 clamp(25px,3vw,38px)/1.1 var(--display);letter-spacing:-.05em;margin:17px 0 11px}
+.brand-story p{max-width:470px;color:#58615f;font-size:14px;margin:0 0 18px}
+.brand-story .text-link{margin-top:auto}
+.brand-lpg{display:grid;grid-template-columns:.82fr 1.18fr;padding:0;overflow:hidden}
+.brand-story-photo{min-height:370px;background:#f7f8f7;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.brand-story-photo img{width:100%;height:100%;min-height:370px;object-fit:cover;object-position:center}
+.brand-story-copy{padding:27px 30px 30px;display:flex;flex-direction:column;align-items:flex-start}
+.brand-lpg-logo{width:64px;height:64px;object-fit:cover;margin-bottom:18px}
+.brand-story-copy h3{font-size:clamp(23px,2.5vw,32px)}
+.brand-story-copy p{font-size:13px}
+@media(max-width:760px){.brand-intro{padding-top:65px;padding-bottom:65px}.brand-story-grid{grid-template-columns:1fr;gap:12px;margin-top:26px}.brand-story{min-height:0;padding:25px}.brand-guinot-logo{margin-bottom:25px}.brand-lpg{grid-template-columns:1fr}.brand-story-photo{min-height:210px;max-height:250px}.brand-story-photo img{min-height:210px;max-height:250px}.brand-story-copy{padding:24px}}
