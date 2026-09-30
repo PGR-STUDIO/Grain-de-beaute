@@ -32,3 +32,6 @@ img[src*="DSC05603-scaled"],img[src*="CABINE.jpg"],img[src*="DSC05607"],img[src*
 .gallery-item.gallery-lpg img{object-fit:contain;background:#f8f9f8}
 
 .lpg-photo-shade,.lpg-art .lpg-label,.lpg-art .lpg-index{display:none}
+
+/* Retire le point décoratif qui se superposait aux prix des cartes cadeaux. */
+.gift-card:after{display:none}
