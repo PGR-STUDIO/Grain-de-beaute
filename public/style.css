@@ -110,3 +110,38 @@ body,.intro,.header{background-color:var(--paper)}
 .shop-cta{background:#322825}
 .bridal{background:#f2e5da}
 .brand-mark{border-color:var(--plum);color:var(--plum)}
+
+/* Second pass: keep the page airy and lift every large dark color block. */
+.topline{background:#80685c;color:#fff8f2}
+.topline a{color:#fff8f2}
+.nav-cta,.button-dark{background:#845c53}
+.hero{background:#796156}
+.hero-image{filter:saturate(1.02) contrast(.99) brightness(1.12)}
+.hero-shade{background:linear-gradient(90deg,rgba(54,39,33,.46) 0%,rgba(54,39,33,.25) 43%,rgba(54,39,33,.02) 100%),linear-gradient(0deg,rgba(54,39,33,.16),transparent 20%)}
+.lpg-band{background:#eee2d6;color:var(--ink)}
+.lpg-copy>p:not(.lpg-kicker){color:#5e514a}
+.lpg-copy ul{color:#463a35}
+.lpg-copy li{border-bottom-color:#d6c5b8}
+.lpg-prices>div{background:#f8f1e9}
+.lpg-prices span{color:#51443e}
+.lpg-prices strong{color:#348a92}
+.shop-cta{background:#dfc7b8;color:var(--ink)}
+.shop-cta p{color:#51443e}
+.shop-cta .eyebrow{color:#51443e}
+.contact{background:#f0e3da;color:var(--ink)}
+.contact .eyebrow{color:#67534b}
+.contact h2 em{color:var(--plum)}
+.contact-top{border-bottom-color:#d5c2b7}
+.contact-label,.contact-grid small{color:#78645a}
+.contact-grid a,.contact-grid p{color:#3d322e}
+.contact-grid a span{color:#9b6858}
+.footer{background:#e7dbd0;color:var(--ink)}
+.footer-brand small,.footer>p{color:#685b54}
+.mobile-book{background:#845c53}
+.hero{color:var(--ink)}
+.hero-image{filter:saturate(.99) contrast(.99) brightness(1.1)}
+.hero-shade{background:linear-gradient(90deg,rgba(251,246,239,.88) 0%,rgba(251,246,239,.72) 42%,rgba(251,246,239,.34) 69%,rgba(251,246,239,.06) 100%),linear-gradient(0deg,rgba(251,246,239,.28),transparent 27%)}
+.hero h1 em{color:var(--plum)}
+.hero .eyebrow.light,.hero .hero-copy,.hero .light-link{color:#51443e}
+.hero-bottom{color:#66554b}
+.hero-stamp{border-color:rgba(91,68,58,.58);color:#51443e}
