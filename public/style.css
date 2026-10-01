@@ -145,3 +145,112 @@ body,.intro,.header{background-color:var(--paper)}
 .hero .eyebrow.light,.hero .hero-copy,.hero .light-link{color:#51443e}
 .hero-bottom{color:#66554b}
 .hero-stamp{border-color:rgba(91,68,58,.58);color:#51443e}
+
+/* Finition générale : une palette ivoire et rose poudré, avec un LPG lisible. */
+:root{--ink:#30252a;--paper:#fffaf6;--mist:#f5ebe5;--plum:#71384f;--muted:#786c70;--line:#e7d9d3}
+body{background:var(--paper);color:var(--ink)}
+.topline{background:#704354;color:#fff9f7}
+.header{background:#fffaf6;border-bottom:1px solid #eadfd9}
+.brand-mark{color:#71384f;border-color:#9a6478}
+.nav>a:not(.nav-cta){color:#55464c}
+.nav-cta,.button-dark{background:#71384f;color:#fff}
+.button-light{background:#fffaf6;color:#30252a}
+.hero{color:#30252a;background:#e9ddd6}
+.hero-image{filter:saturate(.88) brightness(1.01) contrast(.99)}
+.hero-shade{background:linear-gradient(90deg,rgba(255,250,246,.82) 0%,rgba(255,250,246,.66) 39%,rgba(255,250,246,.2) 67%,rgba(255,250,246,.01) 100%),linear-gradient(0deg,rgba(255,250,246,.18),transparent 28%)}
+.hero h1 em{color:#81435c}
+.hero .eyebrow.light,.hero .hero-copy,.hero .light-link{color:#55464c}
+.hero-stamp{border-color:rgba(113,56,79,.42);color:#55464c}
+.hero-bottom{color:#66565c}
+.intro{background:#fffaf6}
+.intro h2 em,.section-heading h2 em,.feature-copy h2 em,.price-head h2 em,.team-copy h2 em{color:#9a5e72}
+.intro-text p,.feature-copy p,.team-copy p{color:#5d5155}
+.intro-stats strong{color:#8b4c65}
+.lpg-band{display:flex;flex-direction:column;background:#f3e8e0;color:#30252a;min-height:0}
+.lpg-copy{width:min(100%,1160px);margin:0 auto;padding:82px 7% 42px;align-self:auto}
+.lpg-brand-logo{width:82px;height:82px;object-fit:contain;background:#fff;border:0;padding:3px;margin-bottom:24px}
+.lpg-copy .eyebrow.light{color:#655158}
+.lpg-copy h2{font-size:clamp(42px,5vw,62px);max-width:780px}
+.lpg-copy h2 em{color:#399da5}
+.lpg-kicker{color:#399da5}
+.lpg-copy>p:not(.lpg-kicker){color:#5b4d52;max-width:650px;font-size:14px}
+.lpg-copy ul{color:#44383d;max-width:720px}
+.lpg-copy li{border-bottom-color:#decbc4}
+.lpg-prices{max-width:760px}
+.lpg-prices>div{background:#fffaf6;border-left-color:#55b9c0}
+.lpg-prices span{color:#50454a}
+.lpg-prices strong{color:#287f87}
+.lpg-price-note{max-width:760px!important;color:#62575b!important}
+.lpg-art{width:min(100% - 14%,1240px);margin:0 auto 72px;align-self:center;min-height:0;height:auto;aspect-ratio:3.52/1;background:#fff;border:1px solid #e8ddd7}
+.lpg-photo{width:100%;height:100%;object-fit:contain;object-position:center;background:#fff}
+.lpg-photo-shade,.lpg-art .lpg-label,.lpg-art .lpg-index{display:none}
+.feature{background:#fffaf6;padding-top:84px;padding-bottom:76px;gap:8%}
+.feature-image{height:clamp(360px,43vw,530px);background:#f1e6e0}
+.feature-image img{object-position:center;filter:saturate(.92)}
+.feature-brand-logo{width:180px;height:70px;margin-bottom:18px}
+.feature-copy .eyebrow{color:#75505f}
+.feature-copy h2{font-size:clamp(42px,5vw,64px)}
+.feature-copy p{font-size:14px;line-height:1.8}
+.editorial-services{background:#f5ebe5;padding-top:0;padding-bottom:72px}
+.editorial-grid{max-width:1240px}
+.editorial-card{min-height:360px;border-color:#e6d8d1}
+.editorial-card>img{max-height:410px;filter:saturate(.92) contrast(1.01)}
+.editorial-card>div{padding:42px clamp(28px,6vw,88px)}
+.editorial-card .small-index{color:#986578}
+.editorial-card h3{font-size:clamp(25px,2.7vw,34px);color:#382b31}
+.editorial-card p{font-size:13px;line-height:1.75;color:#62565a}
+.editorial-card .text-link{color:#754156}
+.service-menus{background:#fffaf6;padding-top:88px;padding-bottom:96px}
+.service-menus .section-heading>p{color:#61555a}
+.menu-accordion{border-color:#e5d7d1}
+.menu-accordion:last-of-type{border-color:#e5d7d1}
+.menu-accordion summary strong{color:#382b31}
+.menu-accordion summary>span:first-child{color:#976075}
+.menu-accordion summary>span:last-child{border-color:#cbb8be;color:#78445a}
+.menu-content>p,.menu-items small,.menu-note{color:#6a5e62}
+.menu-items{border-color:#e7dbd6}
+.menu-items>div{border-color:#e7dbd6}
+.shop-cta{background:#ead6d0;color:#30252a}
+.shop-cta h2 em{color:#8d4f66}
+.shop-cta p{color:#5e4e53}
+.shop-cta .eyebrow{color:#754e5e}
+.bridal{background:#f4e9e2;color:#30252a}
+.bridal .eyebrow.light{color:#75505f}
+.bridal h2 em{color:#9a5e72}
+.bridal-note>p,.bridal-price span,.bridal-price small{color:#62555a}
+.bridal-price{border-color:#d6c3bc}
+.team{background:#fffaf6}
+.contact{background:#754457;color:#fffaf7}
+.contact h2 em{color:#f0cbd3}
+.contact-label,.contact-grid small{color:#ead2da}
+.contact-grid a,.contact-grid p{color:#fffaf7}
+.footer{background:#372a30;color:#fffaf7}
+.footer-brand small,.footer>p{color:#e5d6db}
+.copyright{border-color:#58434d}
+.mobile-book{background:#71384f}
+
+@media(max-width:930px){
+  .lpg-copy{padding:64px 7% 28px}
+  .lpg-art{width:86%;margin-bottom:56px}
+  .feature{padding-top:65px;padding-bottom:56px}
+}
+@media(max-width:760px){
+  .hero{color:#30252a}
+  .hero-shade{background:linear-gradient(90deg,rgba(255,250,246,.79),rgba(255,250,246,.48) 65%,rgba(255,250,246,.12)),linear-gradient(0deg,rgba(255,250,246,.16),transparent 35%)}
+  .hero .eyebrow.light,.hero .hero-copy,.hero .light-link{color:#55464c}
+  .lpg-copy{padding:56px 7% 24px}
+  .lpg-brand-logo{width:68px;height:68px;margin-bottom:19px}
+  .lpg-copy h2{font-size:clamp(38px,10vw,50px)}
+  .lpg-copy>p:not(.lpg-kicker){font-size:13px}
+  .lpg-art{width:86%;aspect-ratio:1.8/1;margin-bottom:45px}
+  .feature{padding-top:58px;padding-bottom:38px}
+  .feature-image{height:300px}
+  .feature-brand-logo{width:158px;height:62px;margin-bottom:14px}
+  .feature-copy p{font-size:13px}
+  .editorial-services{padding-bottom:52px}
+  .editorial-card{padding:22px 0}
+  .editorial-card>img{height:210px;min-height:210px;max-height:230px}
+  .editorial-card>div{padding:18px 4px 4px}
+  .service-menus{padding-top:58px;padding-bottom:65px}
+  .contact{background:#754457}
+}
