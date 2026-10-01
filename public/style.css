@@ -87,3 +87,26 @@ img[src*="DSC05603-scaled"],img[src*="CABINE.jpg"],img[src*="DSC05607"],img[src*
   .text-link>span,.button>span,.nav-cta>span,.mobile-book>span,.service-meta>.arrow,.gallery-item .arrow,.link-arrow,.contact-grid a>span{display:none!important}
   .text-link{gap:0}
 }
+
+/* Palette plus chaude pour l’institut; le turquoise reste réservé à LPG. */
+:root{--ink:#2c2523;--paper:#fbf6ef;--mist:#f0e5d9;--cyan:#b47a63;--plum:#754052;--muted:#7c7068;--line:#e5d8cb}
+body,.intro,.header{background-color:var(--paper)}
+.topline{background:#322825}
+.topline a{color:#f0d8c8}
+.header{border-bottom-color:#e8dcd0}
+.nav>a:not(.nav-cta){color:#554943}
+.hero{background:#302723}
+.hero-shade{background:linear-gradient(90deg,rgba(40,29,26,.74) 0%,rgba(40,29,26,.42) 43%,rgba(40,29,26,.04) 100%),linear-gradient(0deg,rgba(40,29,26,.38),transparent 20%)}
+.hero h1 em,.shop-cta h2 em{color:#efd1b8}
+.services,.editorial-services,.brand-intro{background:#f3e9dd}
+.editorial-card{border-color:#e1d1c2}
+.editorial-card>img{filter:saturate(.94) sepia(.035) contrast(1.02)}
+.editorial-card .small-index{color:#82645b}
+.lpg-band{background:#292422}
+.lpg-copy h2 em,.lpg-kicker,.lpg-copy li:before,.lpg-prices strong{color:#59c5d0}
+.lpg-art{background:#332c29}
+.lpg-prices>div{background:#332c29;border-left-color:#59c5d0}
+.feature{background:#fffaf4}
+.shop-cta{background:#322825}
+.bridal{background:#f2e5da}
+.brand-mark{border-color:var(--plum);color:var(--plum)}
